@@ -1,1 +1,3 @@
-# Train-Time
+I create a train schedule application that incorporates Firebase to host arrival and departure data. The application will retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
+
+There are two main types of storage I will use to save data: Client Side Storage and Server Side Storage. In additon, I will  use the Moment.js library to do things such as converting between various date formats and finding the difference between two dates.
