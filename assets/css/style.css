@@ -1,9 +1,11 @@
-.body {
-font-family: 'Cormorant Unicase', serif;
-
-}
+body {
+font-family: 'Bitter', serif;
+            }
+            
+   
 
 .jumbotron {
     background-color:#140F50;
     color: white;
+    margin: 10px;
 }
