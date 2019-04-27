@@ -1,3 +1,24 @@
+// Firebase
+< script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js" ></script >
+    <script>
+        var config = {
+            apiKey: "AIzaSyDvykLCbp29Q9QOj7Mk9b1Lt5hsVQ01qXQ",
+authDomain: "train-time-30a29.firebaseapp.com",
+databaseURL: "https://train-time-30a29.firebaseio.com",
+projectId: "train-time-30a29",
+storageBucket: "train-time-30a29.appspot.com",
+messagingSenderId: "854771979450"
+};
+firebase.initializeApp(config);
+</script>
+
+// Clicking submit calls getData function
+$("#submit").on("click", function (event) {
+                event.preventDefault();
+                getData();
+            })
+
+
 // jQuery
 
 var randomDate = "02/23/1999";
