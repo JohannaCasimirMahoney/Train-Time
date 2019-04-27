@@ -1,6 +1,7 @@
 body {
 font-family: 'Bitter', serif;
-            }
+background-color: black;
+}
             
    
 
@@ -8,4 +9,11 @@ font-family: 'Bitter', serif;
     background-color:#140F50;
     color: white;
     margin: 10px;
+}
+
+.center {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
