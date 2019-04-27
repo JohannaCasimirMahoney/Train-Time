@@ -39,51 +39,88 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">The Ghost Express</h1>
-            <p class="lead">A harrowing adventure. All aboard</p>
-            <img style="position:absolute; BOTTOM:450px; RIGHT:40px; WIDTH:200px; HEIGHT:170px"
+            <img style="position:absolute; BOTTOM:565px; RIGHT:40px; WIDTH:200px; HEIGHT:170px"
                 src="assets/images/jawbone.png">
         </div>
     </div>
     <!-- Second image display -->
     <img src="assets/images/darktrack.png" style=" WIDTH:900px; HEIGHT:300px;" class="center">
 
+    <!-- Train Information -->
 
+    <div class="wrapper">
 
-    <div class="card">
-        <div class="card-header text-center">
-            Add Train
+        <div class="jumbotron">
+            <h4>
+                <center>A harrowing adventure. All aboard!</center>
+            </h4>
         </div>
-        <div class="card-body">
-            <form>
-                <div class="form-group">
-                    <label for="name">Train Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter train name">
-                </div>
-                <div class="form-group">
-                    <label for="destination">Destination</label>
-                    <input type="text" class="form-control" id="destination" placeholder="Enter destination">
-                </div>
-                <div class="form-group">
-                    <label for="firstTrainTime">First Train Time (HH:mm - military time)</label>
-                    <input type="number" class="form-control" id="firstTrainTime" placeholder="Enter first train time">
-                </div>
-                <div class="form-group">
-                    <label for="frequency">Frequency (mins)</label>
-                    <input type="number" class="form-control" id="frequency" placeholder="Enter Frequency">
-                </div>
 
-                <button id="formFill" type="submit" class="btn btn-dark">Submit</button>
-            </form>
+        <div id="wrap">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h6>Current Train Schedule</h6>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped" id="trainScheduleTable">
+                        <thead>
+                            <tr>
+                                <th>Train Name</th>
+                                <th>Destination</th>
+                                <th>Frequency (min)</th>
+                                <th>Next Arrival</th>
+                                <th>Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
+
+
+        <div id="wrapper">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center><span class="blink_text">Add Train</span></center>
+                </div>
+                <div class="panel-body">
+                    <div class="form">
+                        <form>
+                            <br>
+                            <div class="form-group">
+                                <label for="trainNameForm">Train Name</label>
+                                <input type="text" class="form-control" id="trainNameForm">
+                            </div>
+                            <div class="form-group">
+                                <label for="destinationForm">Destination</label>
+                                <input type="text" class="form-control" id="destinationForm">
+                            </div>
+                            <div class="form-group">
+                                <label for="firstTrainTimeForm">First Train Time (HH:mm - Military Time)</label>
+                                <input type="text" class="form-control" id="trainTimeForm">
+                            </div>
+                            <div class="form-group">
+                                <label for="frequency">Frequency (min)</label>
+                                <input type="text" class="form-control" id="frequencyForm">
+                            </div>
+                            <button type="submit" class="btn btn-default" id="click-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
 
 
-    <!-- javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type='text/javascript' src='assets/javascript/train.js'></script>
+
+        <!-- javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type='text/javascript' src='assets/javascript/train.js'></script>
 </body>
 
 </html>

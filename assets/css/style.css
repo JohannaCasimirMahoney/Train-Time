@@ -1,6 +1,7 @@
 body {
 font-family: 'Bitter', serif;
 background-color: black;
+color: white;
 }
             
    
@@ -20,12 +21,59 @@ background-color: black;
 
 .table {
     background-color: #140F50;
-}
-.table-dark{
-    text-align: start;
-}
-
-.card {
-    background-color: #140F50;
     color: white;
 }
+
+.trainSchedule{
+    color: white;
+}
+
+.form-group {
+    background: #140F50;
+}
+
+.btn {
+    background: #140F50;
+    color: white;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#wrap {
+    width: 1100px;
+    margin: 0 auto
+}
+
+/* Blinking text */
+
+.blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: yellow;
+     font-size: 35px;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
