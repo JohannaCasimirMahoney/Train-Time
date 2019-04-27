@@ -21,3 +21,11 @@ background-color: black;
 .table {
     background-color: #140F50;
 }
+.table-dark{
+    text-align: start;
+}
+
+.card {
+    background-color: #140F50;
+    color: white;
+}
