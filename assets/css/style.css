@@ -77,3 +77,23 @@ color: white;
      100% { opacity: 1.0; }
      }
 
+/* Responsive Media */
+@media only screen and (max-width: 980px) {
+  body {
+    background-color: blue;
+  } 
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: yellow;
+ }
+}
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: red;
+
+  }
+header {
+  position: static;
+}
+}
